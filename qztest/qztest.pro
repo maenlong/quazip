@@ -6,6 +6,7 @@ CONFIG += console
 CONFIG -= app_bundle
 DEPENDPATH += .
 INCLUDEPATH += .
+INCLUDEPATH += $$[QT_INSTALL_HEADERS]/QtZlib
 !win32: LIBS += -lz
 win32 {
     # workaround for qdatetime.h macro bug
